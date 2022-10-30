@@ -8,6 +8,7 @@ import AlertProvider from "./components/AlertProvider";
 
 function App() {
   const token = localStorage.getItem("token");
+  
   const isLogged = token !== null && token !== "";
 
   const Routes = isLogged ? AdminRoutes : PublicRoutes;
