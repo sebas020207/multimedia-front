@@ -1,0 +1,10 @@
+.breadcrum{
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  font-size: 0.9rem;
+}
+
+.breadcrum a{
+  padding-left: 0.5rem;
+}

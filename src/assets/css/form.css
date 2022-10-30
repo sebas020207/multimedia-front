@@ -1,0 +1,104 @@
+div.input{
+    margin: 18px;
+}
+
+div.input label, div.input p{
+    font-size: 20px;
+}
+
+div.input label{
+    text-align: left;
+}
+
+section.form-left{
+    width: 58%;
+    float: left;
+}
+
+div.input input[type="text"],
+div.input input[type="password"],
+div.input input[type="email"],
+div.input input[type="tel"],
+div.input textarea,
+div.input select{
+    width: 100%;
+}
+
+div.input textarea{
+    resize: none;
+}
+
+section.form-right{
+    width: 42%;
+    float: right;
+    text-align: center;
+}
+
+div.input p.description{
+    margin: 10px;
+}
+
+section.submit{
+    clear: both;
+    text-align: center;
+}
+
+div.input input.submit{
+    margin: 30px;
+}
+
+div.input input[type="file"]{
+    display: none;
+}
+
+div.input label.input-file,
+div.input input[type="submit"],
+div.input input[type="button"]{
+    margin: 10px;
+    font-size: 20px;
+    color: white;
+    height: 40px;
+    width: 200px;
+    background: linear-gradient(#eeeeee,#3d3d3d);
+    border: 0px;
+}
+
+div.input label.input-file,
+div.input input[type="button"],
+div.input input[type="submit"],
+div.input input[type="radio"],
+div.input label.radio,
+div.input select{
+    cursor: pointer;
+}
+
+div.input input[type="radio"]{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+div.input label.radio{
+    font-size: 16px;
+    font-style: italic;
+}
+
+div.input label.input-file{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+div.input input,
+div.input textarea,
+div.input select{
+    padding: 5px;
+}
+
+div.input i.fas{
+    margin: 5px;
+}
+
+div.input img.preview{
+    width: 250px;
+}

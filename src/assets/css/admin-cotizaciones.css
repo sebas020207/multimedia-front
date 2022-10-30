@@ -1,0 +1,49 @@
+.L td{
+    background: rgb(174, 213, 129);
+    border-radius: 2px 2px 2px 2px;
+    font-size: x-large;
+}
+  
+.M td{
+    background: rgb(255, 241, 118);
+    border-radius: 2px 2px 2px 2px;
+    font-size: x-large;
+}
+
+.H td {
+    background: rgb(229, 115, 115);
+    border-radius: 2px 2px 2px 2px;
+    font-size: x-large;
+}
+  
+.filtro {
+    color: grey;
+}
+  
+.filtro:hover {
+    color: darkgray;
+    text-decoration: underline;
+    cursor: pointer;
+}
+  
+#actual {
+    color: grey;
+    text-decoration: underline;
+}
+  
+#actual:hover {
+    color: darkgray;
+    cursor: pointer;
+}
+
+.VM {
+    color: black;
+}
+
+.VM:hover {
+    color:darkslategrey;
+}
+
+.relleno:hover {
+    cursor: default;
+}

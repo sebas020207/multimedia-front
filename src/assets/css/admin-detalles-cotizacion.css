@@ -1,0 +1,36 @@
+table {
+    border-collapse: collapse;
+}
+
+table tbody td{
+    padding: 20px;
+    background: #c3c3c3;
+    word-wrap: break-word;
+}
+
+.FH {
+    background-color: gray;
+    color: white;
+    font-size: small;
+    border: 1px solid black;
+}
+
+.resume { 
+    height: 60vh;
+    overflow-y: scroll;
+}
+
+.reply{
+    width: 100%;
+    padding: 1rem 0.5rem;
+    background: #aaaaaa;
+    font-weight: bold;
+    color: black;
+    outline: none;
+    border: none;
+    margin-top: 1rem;
+}
+
+.reply:hover {
+    cursor: pointer;
+}

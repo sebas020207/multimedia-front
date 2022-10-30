@@ -1,0 +1,16 @@
+#cardsdiv {
+    display: flex;
+}
+
+  #az {
+      margin-left: 35%;
+  }
+
+@media only screen and (max-width: 850px) {
+    #cardsdiv {
+        display:block;
+    }
+    #az{
+        margin-left: 0%;
+    }
+}

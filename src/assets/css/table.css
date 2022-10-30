@@ -1,0 +1,146 @@
+
+.breadcrum{
+  padding: 5px 0px 35px 0px;
+}
+.breadcrum p{
+  display: inline-block;
+  font-size: 13px;
+}
+
+.breadcrum a{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 13px;
+}
+
+
+.sup-table p , .sup-table div{
+ display: inline-block;
+}
+
+
+.search-table {
+margin-left: 613px;
+}
+
+.btn{
+  width: 55px;
+  height: 55px;
+  line-height: 55px; 
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #ea4c7d;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+
+.Tablaadmin {
+  background: #f1f1f1;
+  width: 100%;
+ 
+  height: 52.5vh;
+}
+
+.Tablaadminlast2 {
+  background: #f1f1f1;
+  width: 100%;
+ 
+  height: 71.5vh;
+}
+
+
+
+.contenidoDeTablaadmin {
+  overflow-y: scroll;
+  width: 100%;
+  height: 100%;
+}
+
+.contenidoDeTablaadmin table thead tr th {
+  border: 1px solid black;
+  background: gray;
+  color: white;
+  font-size: medium;
+  padding: 20px;
+  width: 30px;
+  word-wrap: break-word;
+  
+}
+
+
+.contenidoDeTablaadmin Table thead {
+ background-color: white;
+}
+
+table{
+  width: 100%;
+}
+
+#sup{
+  width: 50%;
+  padding:0.2px;
+  background-color:black;
+}
+
+table thead{
+  background: #aaaaaa;
+}
+
+table thead th{
+  padding: 1rem 0.3rem;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+table tbody td{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background: white;
+  text-align: center;
+  color: black;
+}
+
+.PA {
+  background-color: rgb(229, 115, 115);
+}
+
+.PM {
+  background-color:rgb(255, 241, 118);
+}
+
+.PB {
+  background-color:rgb(174, 213, 129);
+}
+
+table .btn-action{
+  width: 30px;
+  height: 15px;
+  border: none;
+  padding: 0.5rem;
+  outline: none;
+  background-image: url(../img/three-dots.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+table .btn-action:hover{
+  cursor: pointer;
+}
+
+table tr.high-priority{
+  background: rgb(229, 115, 115);
+}
+
+table tr.medium-priority{
+  background: rgb(255, 241, 118);
+}
+
+table tr.low-priority{
+  background: rgb(174, 213, 129);
+}

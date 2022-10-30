@@ -1,0 +1,23 @@
+.filtro {
+    color: grey;
+}
+  
+.filtro:hover {
+    color: darkgray;
+    text-decoration: underline;
+    cursor: pointer;
+}
+  
+#actual {
+    color: grey;
+    text-decoration: underline;
+}
+  
+#actual:hover {
+    color: darkgray;
+    cursor: pointer;
+}
+
+.relleno:hover {
+    cursor: default;
+}
